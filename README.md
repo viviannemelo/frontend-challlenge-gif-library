@@ -1,33 +1,34 @@
-# Quasar App (gif-library)
+# Gif Library
 
-A Quasar Project
+Desenvolvimento de página web que consome dados de uma api (https://developers.giphy.com/ ) com scroll infinito de gifs, uma opção de busca e uma visualização ampliada do gif selecionado.
 
-## Install the dependencies
+## Configurações do ambiente
+
+### Clonar repositório
+```
+git clone git@github.com:viviannemelo/frontend-challlenge-gif-library.git
+```
+
+### Entrar na pasta do arquivo
+```
+cd frontend-challlenge-gif-library.git
+```
+### Instalar dependências
 ```bash
 yarn
 # or
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### Inicializar
 ```bash
 quasar dev
 ```
 
 
-### Lint the files
+### Lint
 ```bash
 yarn lint
 # or
 npm run lint
 ```
-
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
